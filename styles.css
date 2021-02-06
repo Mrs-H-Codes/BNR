@@ -15,12 +15,13 @@ h1{
   margin:50px auto 20px auto;
 }
 
-a{
+
+.footer-link{
   color:#f6f5f5;
   text-decoration: none;
 }
 
-a:hover{
+.footer-link:hover{
   color:#d3e0ea;
   text-decoration: none;
 }
@@ -39,7 +40,9 @@ hr{
   margin:0;
   height:150px;
   background-color: #f6f5f5;
+  position: relative;
 }
+
 
 .middle-container{
   text-align: center;
@@ -77,14 +80,14 @@ hr{
 }
 
 .about-me-paragraph{
-  text-align: left;
-  width:70%;
+  text-align: justify;
+  width:60%;
   margin:30px auto 30px auto;
   position: relative;
 }
 .about-me-paragraph2{
-  text-align: right;
-  width:70%;
+  text-align: justify;
+  width:60%;
   margin:30px auto 30px auto;
   position: relative;
   padding:30px;
